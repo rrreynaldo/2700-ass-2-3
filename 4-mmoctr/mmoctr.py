@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-
-# A flawed variant of Matyas-Meyer-Oseas (MMO) hash function based on AES. 
-# (c) Alwen Tiu, 2022
-
 from Crypto.Cipher import AES
 from Crypto.Util.number import *
 from Crypto.Util.Padding import pad
